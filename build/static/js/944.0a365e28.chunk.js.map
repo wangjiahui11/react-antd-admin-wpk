@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/944.0a365e28.chunk.js","mappings":"+KAEe,SAASA,IACtB,OACEC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,QAET,C","sources":["pages/Common/components/Form/index.jsx"],"sourcesContent":["import React from 'react'\n\nexport default function CommonForm() {\n  return (\n    <div>Form</div>\n  )\n}\n"],"names":["CommonForm","_jsx","children"],"sourceRoot":""}

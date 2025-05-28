@@ -1,0 +1,212 @@
+.ant-modal-body .lz-component-search-bar {
+  margin: 5px 0 10px 0;
+
+  > .item {
+    min-height: 30px;
+    padding: 0 5px;
+  }
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: #f8f9fc;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background-color: #e6f7ff;
+}
+
+.lz-component-search-bar {
+  // margin-right: 40px;
+  overflow: visible;
+
+  &.collapsed .search-bar-inner-content .item.collapsible {
+    display: none;
+  }
+
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+
+  .search-bar-inner-content {
+    > .item {
+      box-sizing: border-box;
+      display: block;
+      float: left;
+      width: 20%;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      &:nth-child(1) {
+        .ant-form-item .ant-form-item-row .ant-form-item-label {
+          width: auto;
+        }
+      }
+
+      &.span-2 {
+        width: 20%;
+      }
+
+      &.span-3 {
+        width: 25%;
+      }
+
+      &.span-4 {
+        width: 33%;
+      }
+
+      &.span-5 {
+        width: 50%;
+      }
+
+      &.span-6 {
+        width: 60%;
+      }
+
+      &.span-7 {
+        width: 66%;
+      }
+
+      &.span-8 {
+        width: 75%;
+      }
+
+      &.span-9 {
+        width: 80%;
+      }
+
+      &.span-10 {
+        width: 100%;
+      }
+
+      &.form-buttons {
+        display: flex;
+
+        // align-items: center;
+        &.align {
+          &-left {
+            justify-content: flex-start;
+
+            button,
+            .button-toggle-expand {
+              margin-right: 10px;
+            }
+          }
+
+          &-center {
+            justify-content: center;
+
+            button,
+            .button-toggle-expand {
+              margin: 0 10px;
+            }
+          }
+
+          &-right {
+            justify-content: flex-end;
+
+            button,
+            .button-toggle-expand {
+              margin-left: 10px;
+            }
+          }
+        }
+
+        .button-toggle-expand {
+          font-size: 12px;
+          user-select: none;
+
+          span {
+            padding-right: 4px;
+          }
+        }
+      }
+
+      .ant-form-item {
+        // display: flex;
+        margin-bottom: 0;
+
+        &.label-size {
+          &-small .ant-form-item-label {
+            width: 60px;
+          }
+
+          &-medium .ant-form-item-label {
+            width: 90px;
+          }
+
+          &-large .ant-form-item-label {
+            width: 120px;
+          }
+
+          &-auto .ant-form-item-label {
+            width: auto;
+          }
+        }
+
+        &.label-selectable {
+          > .ant-form-item-label {
+            padding-right: 13px;
+            overflow: visible;
+            text-align: left;
+
+            label {
+              overflow: visible;
+
+              .ant-select {
+                max-width: 100%;
+              }
+            }
+          }
+        }
+
+        > .ant-form-item-label {
+          margin-right: 6px;
+          line-height: 30px;
+
+          label {
+            font-size: 12px;
+          }
+        }
+
+        > .ant-form-item-control-wrapper {
+          width: 0;
+          flex: 1;
+
+          .ant-form-item-control {
+            line-height: 30px;
+          }
+
+          .ant-input,
+          .ant-select {
+            font-size: 12px;
+          }
+
+          .ant-select {
+            max-width: 319px;
+          }
+
+          .ant-form-explain {
+            position: absolute;
+            margin-top: -2px;
+            font-size: 12px;
+          }
+
+          .lz-cascader {
+            max-width: 500px;
+          }
+
+          .lz-range-picker {
+            .ant-input {
+              padding-right: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .inputgroup-from-item {
+    display: flex;
+  }
+}

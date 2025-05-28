@@ -1,0 +1,25 @@
+.row-card-container {
+  margin: 10px 0;
+  padding: 20px 20px;
+  background-color: #fff;
+  .row-card-header {
+    display: flex;
+    margin-bottom: 16px;
+    justify-content: space-between;
+    .header-left {
+      display: flex;
+      .icon {
+        margin-bottom: 0.5em;
+        font-size: 16px;
+        margin-left: 8px;
+      }
+      .content {
+        margin-top: 2px;
+        margin-left: 8px;
+      }
+    }
+  }
+}
+.row-card-container + .row-card-container {
+  margin-top: 24px;
+}

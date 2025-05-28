@@ -1,0 +1,38 @@
+:global {
+  .ant-table-thead > tr > th {
+    background: #f8f9fc;
+    border-bottom: 1px solid #edf1f7;
+  }
+
+  .ant-table-tbody > tr > td {
+    border-bottom: 1px solid #edf1f7;
+  }
+
+  .ant-table-tbody > tr.ant-table-row:hover > td,
+  .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+    background: #f8f9fc;
+  }
+  .table-title1 {
+    overflow: auto hidden;
+  }
+}
+.basic-table-scroll {
+  overflow-x: auto;
+  max-width: 100%;
+  white-space: nowrap; /* 防止内容换行 */
+  margin-bottom: 8px; /* 与表格的间距 */
+  height: 12px; /* 设置滚动条高度 */
+}
+
+.basic-table-scroll::-webkit-scrollbar {
+  height: 10px; /* 滚动条高度 */
+}
+
+.basic-table-scroll::-webkit-scrollbar-thumb {
+  background-color: #b8b8b8; /* 滚动条滑块颜色 */
+  border-radius: 4px; /* 滑块圆角 */
+}
+
+.basic-table-scroll::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* 滚动条轨道颜色 */
+}

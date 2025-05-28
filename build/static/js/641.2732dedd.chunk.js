@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_antd_admin_wpk=self.webpackChunkreact_antd_admin_wpk||[]).push([[641],{9641:(a,e,n)=>{n.r(e),n.d(e,{default:()=>s});n(4956);var t=n(3095),c=n(7280);function s(){const a=(0,t.zy)(),{pathname:e}=a;return console.log("\u5f53\u524dpathname\u4e3a:",e),(0,c.jsx)("div",{className:"page404",children:"404\u9875\u9762"})}}}]);
+//# sourceMappingURL=641.2732dedd.chunk.js.map
